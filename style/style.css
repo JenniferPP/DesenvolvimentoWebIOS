@@ -1,0 +1,36 @@
+table{
+    background-color: white;
+    box-shadow:0 0 1em rgba(0, 0, 0, 0.2);
+    font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-collapse: collapse;
+    margin-left:80px;
+    text-align: left;
+    border-bottom: rgb(29, 126, 133) ;
+    border-radius: 15px;
+   
+}
+
+
+
+th{
+    background-color: rgb(29, 126, 133);
+    color:white;
+    padding: 15px 20px 10px 20px;
+    
+}
+
+.tit_1 {
+    border-top-left-radius: 15px 15px;
+}
+
+.tit_2{
+    border-top-right-radius: 15px 15px;
+}
+
+td{
+    padding: 15px 30px 15px;
+}
+
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}

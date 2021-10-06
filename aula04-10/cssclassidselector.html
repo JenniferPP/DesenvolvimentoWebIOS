@@ -1,49 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Incorporando CSS</title>
+    <title>Seletor CSS</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="cssclassidselector.css">
   </head>
 
-  <style>
-    body{
-        background-color: rgb(231, 231, 231);
-    }
-
-    header{
-        background-color: #2d2d2d;
-    }
-    img{
-        margin-top: 100px;
-    }
-     h2{
-         float:left;
-     }
-     table{
-         float: right;
-         margin-top: 20px;
-     }
-     td{
-         padding: 10px;
-     }
-    table, h2{
-        color: #fff;
-    }
-
-    p{
-        text-align: center;
-    }
-
-    h1{text-align: center;}
-
-  </style>
-
     <body>
-        <div>
+        <div id="topo">
             <header>
                 <!--Menu  é falso, só para ilustração-->
-                <div>
+                <div class="logo">
                     <h2>LOGO</h2>
+                </div>
+                <div class="menu-falso">
                     <table>
                         <tr>
                             <td>Home</td>
@@ -53,17 +23,17 @@
                         </tr>
                     </table>
                 </div>
-                <div>
-                    <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" width="250px">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" width="250px">
-                    <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/facebook_icon_130940.png" width="250px">
+                <div style="width: 100%;">
+                    <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" >
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png">
+                    <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/facebook_icon_130940.png">
                 </div>    
             </header>
         </div>    
         
         <!--------------WHATSAPP-->
         <br>
-        <h1>WhatsApp</h1>
+        <h1 style="background-color: #36C638; color:white;">WhatsApp</h1>
         <p>O WhatsApp é um aplicativo de troca de mensagens e comunicação em áudio e vídeo pela internet, disponível para smartphones Android, iOS, Windows
             Phone, Nokia e computadores Mac e Windows. O programa tem mais de 1,5 bilhão de usuários ativos mensais espalhados por mais de 180 países.
 
@@ -86,8 +56,8 @@
             </p>
 <!--------------INSTAGRAM-->
             <br>
-        <h1>Instagram</h1>
-        <p>Todo mundo fala sobre e todo mundo usa. Mas o que é o Instagram? Instagram é uma rede social de fotos para usuários de Android e iPhone. Basicamente se trata de um aplicativo gratuito que pode ser baixado e, a partir dele, é possível tirar fotos com o celular, aplicar efeitos nas imagens e compartilhar com seus amigos.
+        <h1 style="background-color: rgb(187, 50, 127); color:#fff;">Instagram</h1>
+        <p >Todo mundo fala sobre e todo mundo usa. Mas o que é o Instagram? Instagram é uma rede social de fotos para usuários de Android e iPhone. Basicamente se trata de um aplicativo gratuito que pode ser baixado e, a partir dele, é possível tirar fotos com o celular, aplicar efeitos nas imagens e compartilhar com seus amigos.
 
             Há ainda a possibilidade de postar essas imagens em outras redes sociais, como o Facebook e o Twitter. No Instagram, os usuários podem curtir e comentar nas suas fotos e há ainda o uso de hashtags (#) para que seja possível encontrar imagens relacionadas a um mesmo tema, mesmo que as pessoas que tiraram essas fotos não
             sejam suas amigas.
@@ -100,14 +70,14 @@
             4.A interface do aplicativo é bastante simples e basta você clicar no ícone da câmera para tirar uma foto;
             </p><br>
             
-            <p>
+            <p >
                 Para saber mais clique <a href="https://canaltech.com.br/redes-sociais/o-que-e-instagram/#:~:text=Mas%20o%20que%20%C3%A9%20o%20Instagram%3F%20Instagram%20%C3%A9,efeitos%20nas%20imagens%20e%20compartilhar%20com%20seus%20amigos.">
                     aqui</a>
             </p>
 
             <!--------------FACEBOOK-->
             <br>
-            <h1>Facebook</h1>
+            <h1 style="background-color: hsl(220, 46%, 41%); color:#fff;">Facebook</h1>
             <p>Facebook é uma mídia social e rede social virtual lançada em 4 de fevereiro de 2004, operado e de propriedade privada da Facebook Inc..[5] Em 4 de outubro de 2012,
                 o Facebook atingiu a marca de 1 bilhão de usuários ativos, sendo por isso a maior rede social virtual em todo o mundo.[6] Em 27 de junho de 2016, o Facebook atingiu
                 a marca de 2 bilhões de usuários ativos.[7] O nome do serviço decorre o nome coloquial para o livro dado aos alunos no início do ano letivo por algumas administrações

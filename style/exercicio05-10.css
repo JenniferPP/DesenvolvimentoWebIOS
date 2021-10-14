@@ -2,18 +2,82 @@
 
 *{
     margin: 0;
-    padding: 0;
 }
 
 body{
     font-family: poppins;
     }
 
-.mainMenu{
+#menu{
+    background-color: #2D3258;
+    text-align: center;
+    height: 115px;
+}
+    
+#menu ul {
     list-style: none;
-    float: left;
+}
+    
+#menu ul li {
+    display: inline;
 }
 
+a{
+    margin: 30px 0 0 0;
+    padding: 20px;
+    float: right;
+}
+    
+#menu ul li a {
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+    
+#menu ul li a:hover {
+    background-color: #212647;
+}
+
+ #menu > header > img{
+     float: left;
+ }
+
+ .linksMenu{
+     margin-right: 40px;
+ }
+
+ #corpo{
+     background: white;
+     width: 80%;
+     margin-left: 10%;
+     margin-top: 40px;
+     border-radius: 20px ;
+     padding: 20px;
+ }
 
 
+.produto{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.textProdutos{
+   color: white;
+   border: 2px solid #fff;
+}
 
+.produto > img {
+    margin-top: 20px;
+}
+
+.btnProd{
+    border: 2px solid #fff;
+    padding: 5px;
+    font-size: 20px;
+    background-color: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}

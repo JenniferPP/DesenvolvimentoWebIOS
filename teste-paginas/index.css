@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,800;1,600;1,800;1,900&display=swap');
+
+body{
+    color:white;
+    font-family: poppins;
+}
+
+/* Menu de acessos como o login/cadastro, perfil, favoritos*/
+.acessos{
+    background-color:#FFBC42;
+}
+
+.logCad{
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    float:right;
+}
+
+.btnLogin{
+    text-decoration:none;
+    color:white;
+    font-size: 17px;
+    float:right;
+}
+
+.btnLogin:hover{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.carFav , .imgCarrinho , .imgFavoritos{
+    text-align: center;
+}
+
+@media (max-width: 940px) {
+    .logCad{     
+        float: left;
+    }
+    
+    .btnLogin{
+        float:left;
+        margin-left: 20px;
+    }
+
+    .carFav{
+        text-align: right;
+    }
+    
+}
+
+/*Menu de navegação entre as páginas*/
+.mainMenu{
+    background-color: #F2545B;
+}
+
+.logo{
+    padding: 20px 0 20px 30px;
+}
+
+
+
+
+.banner{
+    color:black;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.iconsFrete{
+    background-color: brown;
+}
+
+.tdsCategorias{
+    background-color: crimson;
+}
+
+.gif{
+    background-color: rgb(139, 0, 53);
+}
+
+.maisVendidos{
+    background-color: darkgrey;
+}
+
+.monteCamiseta{
+    background-color: darkolivegreen;
+}
+
+.newsletter{
+    background-color: darkturquoise;
+}
+
+.rodape{
+    background-color: dodgerblue;
+}
+
+.logoFooter{
+    background-color: indigo;
+}
+
+.menuFooter{
+    background-color: rgb(26, 130, 0);
+}
+
+.ajudaFooter{
+    background-color: rgb(130, 69, 0);
+}
+
+.midias{
+    background-color: rgb(130, 0, 124);
+}
+
+.formasPagamento{
+    background-color: gray;
+}

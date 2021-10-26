@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-gap: 2em;
+    overflow-x: hidden;
+}
+.wrapper>article {
+    background: rgb(19, 207, 198);
+    padding: 1em;
+}
+.wrapper>article:nth-child(odd) {
+    background: rgb(129, 22, 133);
+    color:white;
+   }
+
+   .wrapper>article:nth-child(odd):hover {
+    background: rgb(178, 16, 184);
+    color:rgb(204, 204, 204);
+   }

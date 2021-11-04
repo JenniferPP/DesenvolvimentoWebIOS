@@ -40,8 +40,7 @@ function multiplicarValores(){
 }
 
 function provas(){
-    var notas =Number (prompt("Insira a nota do aluno"));
-
+    var notas =Number (prompt("Insira o primeiro número"));
     if (notas => 7)
         alert ('Aprovado')
 

@@ -10,17 +10,24 @@ class contaBancaria{
     }
     
     contaPoupanca(tipoConta){
-        return this.salario * 1.5;
+        return this.salario * 0.015;
     };
 
     contCorrente(tipoConta){
-        return this.salario * 3.6;
+        return this.salario * 0.036;
     };
 
     contaEstudante(tipoConta){
-        return this.salario * 1.2;
+        return this.salario * 0.012;
     };
+
+    contaDesconto(){
+        return this.salario - this.contaEstudante()
+    }
+
 }
 
-let dadosUser = new contaBancaria ('Pheeb', '34', 1500, 'femino', '12345-6', '78910', contaEstudante());
-let descSalario =
+let dadosUser = new contaBancaria ('Pheeb', '34', 1500, 'femino', '12345-6', '78910', 'contaEstudante()');
+
+console.log(dadosUser);
+console.log(`O desconto que a aluna terá é de: ${dadosUser.contaEstudante()}`);

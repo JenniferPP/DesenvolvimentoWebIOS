@@ -1,0 +1,77 @@
+body{
+    background: rgb(241,45,125);
+    background: linear-gradient(90deg, rgba(241,45,125,1) 0%, rgba(255,89,0,1) 100%);
+    font-family: poppins;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+section{
+    display: flex;
+    align-items: stretch;
+}
+.itens{
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    overflow: auto;
+}
+.itens img{
+    width: 100px;
+    height: auto;
+    left: 50%;
+    margin-bottom: 50px;
+}
+.livros{
+    flex: 80%;
+    order:1;
+}
+
+.comida{
+    flex: 50%;
+    order: 3;
+}
+.comida ul{
+    text-align: left;
+}
+
+.filmes{
+    order: 4;
+    flex: 100%;
+}
+.filmes .filme img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.animais{
+    order: 2;
+    flex: 80%;
+    align-self: auto;
+}
+.animais p{
+    padding-bottom: 10px;
+    margin-bottom:30px ;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+.livros h3, .comida h3{
+    color:rgb(255,89,0);
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.filmes h3, .animais h3{
+    color:rgb(241,45,125);
+    border-bottom: 1px solid #d8d8d8;
+}

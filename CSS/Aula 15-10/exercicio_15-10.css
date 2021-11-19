@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,700;0,800;0,900;1,100;1,400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+    font-weight: 500;
+}
+button:hover{
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+}
+p{
+    margin-top: 90px;
+}
+
+.cont1{
+    background-color: #03256c;
+    color: white;  
+}
+.cont1 img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.item1{
+    display: flex;
+    background-color: #0134a3;
+    padding: 30px;
+}
+.item1 p{
+    margin-right: 30px;
+}
+
+.item2{
+    display: flex;
+    background-color: #0043d3;
+    padding: 30px;
+}
+.item2 img{
+    width: 120%;
+}
+.item2 p{
+    margin-left: 120px;
+}
+.item2 button{
+    margin-left: 600px ;
+}
+
+.item3{
+    display: flex;
+    background-color: #0051ff;
+    padding: 50px;
+}
+.item3 p{
+    margin-left: 50px;
+    width: 500px;
+}
+.item3 img{
+    width: 100%;
+}
+.item3 button{
+    margin-left: 250px ;
+}

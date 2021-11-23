@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <!--Formulário-->
+    <br><br>
+    <form onsubmit="return false" oninput="result.value = fNumber.valueAsNumber + sNumber.valueAsNumber" id="calculo">
+        <label for="fNumber">Insira o primeiro número</label>
+        <input type="number" id="fNumber" name="fNumber"> +
+
+        <label for="sNumber">Insira o primeiro número</label>
+        <input type="number" id="sNumber" name="sNumber"> =
+
+        <output name="result" for="fNumber sNumber" form="calculo"></output>
+    </form>
     
 </body>
 </html>

@@ -1,0 +1,6 @@
+const valores
+
+
+function promocaoDoDia(){
+
+}

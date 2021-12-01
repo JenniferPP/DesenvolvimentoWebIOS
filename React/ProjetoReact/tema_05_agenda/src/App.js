@@ -1,10 +1,11 @@
+import Header from './Components/Header';  
+  
 function App() {  
     return (  
         <div className="container">  
-            <h1>Olá Pessoal!</h1>  
-            <p>Vamos criar uma agenda de compromissos.</p>  
+            <Header title="tarefas"/>  
         </div>  
     );  
 }  
-
+	  
 export default App;  

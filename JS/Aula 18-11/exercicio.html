@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="shortcut icon" href="#" />
-        <title> JavaScript com HTML DOM – Parte 02</title>
-    </head>
-    <body>
-        <h2 id="titulo">Cardápio Restaurante Pipoca</h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dom parte 2</title>
+</head>
+<body onload="promocaododia()">
+    <div class="cardapio">
+        <h1 id="tipos">Cardápio de sorvete</h1>
+
         <ul id="items" class="list">
-            <li class="item">Picolé ------------------------------ R$<span class="preco">10.00</span></li>
-            <li class="item">Açaí -------------------------------- R$<span class="preco">18.00</span></li>
-            <li class="item">Copo da felicidade --------------- R$<span class="preco">15.00</span></li>
-            <li class="item">Bolo de pote ---------------------- R$<span class="preco">09.00</span></li>
-            <li class="item">Café gelado ----------------------- R$<span class="preco">07.00</span></li>
+            <li class="item 1">Sorvete assado na tigela  -------------------- R$<span class="preco">24,50</span></li>
+            <li class="item 2">Petit Gateau com sorvete ------------------- R$<span class="preco">16,50</span></li>
+            <li class="item 3">Brownie com sorvete ------------------------ R$<span class="preco">14,50</span></li>
+            <li class="item 4">Frutas flambadas com sorvete ------------- R$<span class="preco">19,50</span></li>
+            <li class="item 5">Tempurá de sorvete ------------------------- R$<span class="preco">14,50</span></li>
+            
         </ul>
+    </div>
 
-    
-        <script src="main.js"></script>
-    </body>
+    <script src="main.js"></script>
+</body>
 </html>
-

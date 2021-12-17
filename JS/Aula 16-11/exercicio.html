@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dom Parte 3 e 4</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de  Usuário</h1>
+    </header>
+    <section class="container">
+        <form id="formulario">
+            <h1>Formulário</h1>
+            <div class="msg"></div>
+
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" /><br>
+            </div>
+            
+            <div>
+                <label for="item">Item</label>
+                <input type="text" name="item" id="item"> <br>
+            </div>
+
+            <div class="niver">
+                <label for="dateNasc">Data de Nascimento</label>
+                <input type="date" id="dateNasc" name="dateNasc" />
+            </div>
+            </div class="msg_dateNasc"></div>
+            
+                <input class="btn" type="submit" value="Inserir" onclick="onSubmit(e)" />
+                <input class="btn" type="submit" value="Excluir" onclick="excluir()" />
+        </form>
+            
+                <ul id="users"></ul>
+            </section>
+            <script src="main.js"></script>
+</body>
+</html>
